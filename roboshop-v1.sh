@@ -34,7 +34,7 @@ do
 
     #update r53 record
     aws route53 change-resource-record-sets \
-    --hosted-zone-id $Z06729933IPWAGYXJUF7Z \
+    --hosted-zone-id $hosted_zone_id \
     --change-batch '{
         "Changes": [
             {
